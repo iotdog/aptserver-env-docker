@@ -20,5 +20,7 @@ RUN go get -d -v github.com/finalsatan/Aliyun_MNS_SMS/sms
 RUN go get -d -v github.com/Shopify/sarama
 RUN go get -d -v golang.org/x/crypto/bcrypt
 RUN go get -d -v golang.org/x/crypto/pbkdf2
+RUN go get -d -v golang.org/x/crypto/blowfish
+RUN go get -d -v golang.org/x/crypto/pkcs12
 
 CMD ["go", "list", "./..."]
